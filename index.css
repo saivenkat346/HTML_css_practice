@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 127, 127);
+    background-color: rgb(0, 0, 1);
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,7 +8,7 @@ body{
 
 
 .header_nav{
-    background-color: aqua;
+    background-color:black;
      list-style: none;
      margin: 0;
      padding: 0;
@@ -16,44 +16,45 @@ body{
 }
 
 .header_nav>li{
+    color:white;
    display: block;
    width: 100%;
-   border: 0.5px black solid;
+   
 
 }
 .header_nav>li:hover{
-    background-color: blue;
+    background-color:gray;
 }
 
 h1{
-    color:black;
+    color:white;
      
     margin-right: 30%;
 }
 
 .article_section{
     display:flex;
-    background-color: aquamarine;
+    background-color: black;
     border:  aqua dotted 4px;
     margin: 10px;
     
 }
 
 .article_heading{
-    color:blue;
+    color:yellow;
     padding: 0;
     margin: 0;
-    text-decoration: underline;
+    text-decoration: none;
    
 }
 .article{
-    color:black;
+    color:white;
    
    
 }
 
 h4{
-    color:black;
+    color:white;
     padding:0;
     margin:0;
 }
@@ -62,7 +63,7 @@ h4{
    flex-direction: column;
     padding: 0;
     list-style: none;
-    background-color:aqua;
+    background-color:black;
     margin: 0;
     align-items: center;
    
@@ -72,20 +73,21 @@ h4{
 .footer_nav>li{
     padding: 3px;
     margin: 10px;
+    color:white;
 }
 
 .footer_nav>li:hover{
-    background-color: blue;
+    background-color:gray;
 }
 @media screen and (max-width:540px){
     h1{
-        color:black;
+        color:white;
          
         margin-right: 0;
         display:block ;
     }
     .header_nav{
-     background-color: aqua;
+     background-color:black;
       
        padding:10px;
        margin:0;
@@ -97,6 +99,7 @@ h4{
         display: inline;
         padding: 10px;
         border: none;
+        color: white;
         
     
     }
