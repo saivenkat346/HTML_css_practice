@@ -1,0 +1,189 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body{
+    background-color:lightblue;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*heading and logo styles*/
+.logo{
+    width: 30px;
+    padding-left:10px;
+    
+}
+h1{
+    display: inline;
+    color:white;
+    margin:0;
+    padding:0;
+    font-weight: lighter;
+}
+
+/* nav bar styles*/
+
+.nav-bar{
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+    background-color:black ;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    
+}
+
+.nav-item{
+    display: inline;
+    color:white;
+    padding: 5px;
+    margin:0;
+  
+}
+
+.nav-item:hover{
+    background-color:rgb(73,80,80);
+}
+
+/*Article styling*/
+
+.Article-title{
+    background-color: aqua;
+    display: block;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.article-image{
+   width: 400px;
+   margin-left: 35%;
+}
+
+/*footer nav styles*/
+h4{
+    color:white;
+    padding:0;
+    margin:0;
+}
+.footer_nav{
+   display: flex;
+   flex-direction: column;
+    padding: 0;
+    list-style: none;
+    background-color:black;
+    margin: 0;
+    align-items: center;
+   
+
+}
+
+/*summary secton styles*/
+
+.summary-title{
+    background-color: aqua;
+
+    font-size: xx-large;
+    text-align: center;
+
+}
+.main-section{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Article-list{
+    grid-column-start:0;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    
+}
+.Article-item{
+    margin-top: 50px;
+}
+/*footer styles*/
+
+.footer_nav>li{
+    padding: 3px;
+    margin: 10px;
+    color:white;
+}
+
+.footer_nav>li:hover{
+    background-color:gray;
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+@media screen and (max-width:540px) {
+    body{
+        background-color:lightblue;
+        margin: 0;
+        padding: 0;
+        
+    }
+    /*heading and logo styles*/
+.logo{
+    width: 30px;
+    padding-left:10px;
+    
+}
+h1{
+    display: inline;
+    color:white;
+    margin:0;
+    padding:0;
+    font-weight: lighter;
+}
+.article-image{
+    width: 300px;
+    margin-left: 10%;
+ }
+
+/*summary secton styles*/
+
+.summary-title{
+    background-color: aqua;
+
+    font-size: xx-large;
+    text-align: center;
+
+}
+.main-section{
+    display: flex;
+   flex-direction: column;
+}
+
+.Article-list{
+    grid-column-start:0;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    
+}
+.Article-item{
+    margin-top: 50px;
+}
+
+
+    
+}
+
+
+
+

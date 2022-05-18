@@ -25,34 +25,32 @@ h1{
 
 /*header navigation styles*/
 .nav-bar{
-     position: -webkit-sticky;
-    position: sticky;
+    position: -webkit-sticky;
+    position:sticky;
     top:0;
-}
-
-.header_nav{
-   
-    background-color:black;
-     list-style: none;
-     margin: 0;
-     padding: 10px;
+    background-color:black ;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
     
-   
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.header_nav>li{
- color:white;
- display: inline;
- padding-left: 30px;
- padding-right: 30px;
- padding-top: 10px;
- padding-bottom: 10px;
- font-size: large;
 
- 
-
+.nav-item{
+    display: inline;
+    color:white;
+    padding:5px;
+    margin: 0;
+  
 }
-.header_nav>li:hover{
+.nav-item:hover{
     background-color:rgb(73,80,80);
 }
 
