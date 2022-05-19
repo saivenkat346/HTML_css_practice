@@ -53,6 +53,19 @@ a:link, a:visited,  a:hover, a:active
     background-color:rgb(73,80,80);
 }
 
+/*Article section styles*/
+
+.Article-list{
+          display: flex;
+          flex-direction: column;
+          margin-top: 10px;
+}
+
+.Article-image{
+    width: 300px;
+    float: left;
+}
+
 
 
 /*footer nav styles*/
@@ -81,4 +94,13 @@ h4{
 
 .footer_nav>li:hover{
     background-color:gray;
+}
+
+@media screen and (max-width:540px){
+
+    .Article-image{
+        width: 200px;
+        float: left;
+    }
+
 }

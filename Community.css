@@ -54,6 +54,57 @@ a:link, a:visited,  a:hover, a:active
 }
 
 
+/*Comment section styles*/
+.person-image{
+    width: 100px;
+    border-radius: 150px;
+    float:left;
+}
+
+.Comment-section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.comments{
+    margin:10px;
+    background-color:gray;
+    border-radius: 20px;
+}
+.text-img{
+    background-color: gray;
+    font-size: xx-large;
+    margin:0;
+    float:left;
+    padding:10px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.comment-sub{
+    width: 100px;
+    background-color: aquamarine;
+    border: none;
+}
+
+.comment-sub:hover{
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.comment-area{
+    resize: none;
+    width: 500px;
+    background-color: gray;
+}
+.comment-area:hover{
+    background-color: gainsboro;
+    
+}
+
+
 /*footer nav styles*/
 h4{
     color:white;
@@ -80,4 +131,31 @@ h4{
 
 .footer_nav>li:hover{
     background-color:gray;
+}
+@media screen  and (max-width:540px) {
+
+    .comment-area{
+        resize: none;
+        width: 250px;
+        background-color: gray;
+        margin-bottom: 20px;
+    }
+    .comment-area:hover{
+        background-color: gainsboro;
+        
+    }
+
+    .comment-sub{
+        width: 100px;
+        background-color: aquamarine;
+        border: none;
+        float:
+    }
+    
+    .comment-sub:hover{
+        background-color: aqua;
+        border-radius: 20px;
+    }
+
+    
 }

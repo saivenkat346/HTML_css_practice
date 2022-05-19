@@ -71,6 +71,10 @@ h4{
    
 
 }
+/*About secton styles*/
+.About-text{
+    font-size: xx-large;
+}
 
 .footer_nav>li{
     padding: 3px;
